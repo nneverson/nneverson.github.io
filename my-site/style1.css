@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap');
+*{
+   font-family:'Roboto', sans-serif;
+  } 
+  body {
+    background-color: pink;
+  }
+#hero-page{
+display: grid;
+align-items: center;
+position: static;
+grid-template-columns: 20% 20% 20% 20% 20%;
+grid-template-rows: 20% 20% 20% 20% 20%;
+width: 100vw;
+  height: 100vh;
+  background-color: pink;
+}
+#header{
+    font-size: 100px;
+    grid-column-start: 2 ;
+    grid-column-end:span 3;
+    text-align: center;
+}
+#bio{
+  width: 200px;
+  height:100px;
+  margin-bottom: 10px;
+}
+div {
+  margin-top: 10px;
+}
+#me-box{
+    grid-row-start: 3;
+    grid-column-start:3 ;
+    margin-left: auto;
+    margin-right: auto;
+}
+#selfie{
+    width: 300px;
+	height: 200px;
+    object-fit: cover;
+    
+}
+h4{
+  color: Blue;
+}
+
+#hero-button {
+background-color: pink;
+grid-row-start: 5;
+grid-column-start: 3;
+width: 300px;
+  border:none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: crosshair;
+}
+
+#hero-button {
+  background-color: pink; 
+  color: black; 
+  border: 2px solid pink;
+}
+
+#hero-button:hover {
+  background-color: white;
+  border: black 2px solid;
+  color: pink;
+}
+/* About me */
+#pose {
+display: none;
+width: 250px;
+margin-top: 10px;
+margin-bottom: 10px;
+
+}
+footer{
+  align-content: center;
+  font-style: italic;
+}
+.nav-bar{
+  background-color: orange;
+  text-align: center;
+}
+#details{
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  
+    margin: 0 auto;
+
+}
+
+#contact-table{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+#hobbies{
+  text-align: center;
+}
